@@ -1,0 +1,53 @@
+@media all and (max-width: 1170px) {
+
+  header {
+    background-image: url("../img/man-2.jpg");
+    height: 80vh;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .header_content {
+    margin-top: 50px;
+    margin-right: 30px;
+  }
+
+  .header_content h1 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .header_content span {
+    font-size: 1.5em;
+  }
+
+}
+
+@media all and (max-width: 992px) {
+
+  header {
+    background-image: url("../img/man-1.jpg");
+    height: 70vh;
+  }
+
+  .header_hide {
+    margin: 0 auto;
+    padding-top: 500px;
+    color: #000000;
+    text-align: center;
+    display: block;
+  }
+
+  .header_hide h1 {
+    font-size: 1.1em;
+  }
+  
+  .header_hide span {
+    font-size: 1.5em;
+  }
+
+  .header_content {
+    display: none;
+  }
+
+}
