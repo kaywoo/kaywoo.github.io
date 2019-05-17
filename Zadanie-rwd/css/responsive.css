@@ -27,12 +27,12 @@
 
   header {
     background-image: url("../img/man-1.jpg");
-    height: 70vh;
+    height: 65vh;
   }
 
   .header_hide {
     margin: 0 auto;
-    padding-top: 500px;
+    padding-top: 480px;
     color: #000000;
     text-align: center;
     display: block;
@@ -51,3 +51,24 @@
   }
 
 }
+
+@media all and (max-width: 548px) {
+
+  header {
+    background-image: url("../img/man-1.jpg");
+    height: 50vh;
+  }
+
+  .header_hide {
+    padding-top: 380px;
+  }
+
+  .header_hide h1 {
+    font-size: 1.1em;
+  }
+  
+  .header_hide span {
+    font-size: 1.3em;
+  }
+
+} 
