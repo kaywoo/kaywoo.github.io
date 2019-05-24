@@ -1,0 +1,29 @@
+body {
+  box-sizing: content-box;
+  padding-top: 70px;
+  font-size: 50px;
+}
+
+.fab, span {
+  display: block;
+}
+
+.fab {
+  color: rgb(238, 131, 31);
+}
+
+span {
+  font-size: 15px;
+}
+
+hr {
+  width: 30%;
+}
+
+.icon {
+  padding-top: 20px;
+}
+
+.icon-background {
+  color: rgb(247, 242, 242);
+}

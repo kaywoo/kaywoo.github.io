@@ -1,12 +1,23 @@
+var numbers = [0,1,2,3,4,5];
 
-$('#pobierz').click(function(){
+function myFunction(table){
 
-  $.getJSON("https://akademia108.pl/kurs-front-end/ajax/1-pobierz-dane-programisty.php", function(data) { 
+  var suma = 0;
 
-      $('#pobierz').after($('<div id ="dane-programisty">'));
+  for(var i = 0; i<table.length; i++){
+      sum = suma + Math.pow([i],2);
+
   
-      $('#dane-programisty').html('<br>Imię: '+ data.imie + '<br>Nazwisko: ' + data.nazwisko + '<br>Zawód: ' + data.zawod + '<br>Firma: ' + data.firma );
-    
-  });
+  }
+  return sum;
+  // numbers.forEach(function(value){
+  // return Math.pow(value, 2); 
+  // });
+
+  // numbers.forEach(function(element, index, array){
+  // array[index] = element* element;
+  // });
+  
 
 });
+console.log(sum);
